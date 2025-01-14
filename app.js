@@ -118,12 +118,10 @@ function generateICS() {
     const events = filteredData.map(item => {
         const date = item.datum.includes('-') ? item.datum : `2025-${item.datum}-01`;
         const dateObj = new Date(date);
-        // Lägg till en dag för att undvika tidszonsförskjutning
         dateObj.setDate(dateObj.getDate() + 1);
         const endDate = new Date(dateObj);
         endDate.setDate(endDate.getDate() + 1);
 
-        // Formatera datum enligt iCal-standard (YYYYMMDD)
         const startDateStr = dateObj.toISOString().replace(/[-:]/g, '').split('T')[0];
         const endDateStr = endDate.toISOString().replace(/[-:]/g, '').split('T')[0];
 
@@ -142,12 +140,14 @@ END:VEVENT`;
     }).join('\n');
 
     const calendar = `BEGIN:VCALENDAR
-VERSION:2.0
 PRODID:-//Riksdagens propositionskalender//SE
+VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+NAME:Propositionskalender 2025
 X-WR-CALNAME:Propositionskalender 2025
-X-WR-TIMEZONE:Europe/Stockholm
+X-WR-CALDESC:Tidplan för propositioner 2025
+X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
 TZID:Europe/Stockholm
 X-LIC-LOCATION:Europe/Stockholm
@@ -155,7 +155,9 @@ END:VTIMEZONE
 ${events}
 END:VCALENDAR`;
 
-    const blob = new Blob([calendar], { type: 'text/calendar;charset=utf-8' });
+    const blob = new Blob([calendar], { 
+        type: 'text/calendar;charset=utf-8;method=PUBLISH;name="Propositionskalender 2025"'
+    });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -165,7 +167,6 @@ END:VCALENDAR`;
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 }
-
 // Lägg till event listeners
 document.getElementById('search').addEventListener('input', filterData);
 document.getElementById('department').addEventListener('change', filterData);
