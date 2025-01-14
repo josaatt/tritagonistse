@@ -1,6 +1,22 @@
-let data = [];
+Copylet data = [];
 let filteredData = [];
 
+function formatDate(dateStr) {
+    if (!dateStr) return '';
+    if (dateStr.length <= 2) return `${dateStr}/2025`;
+    
+    const date = new Date(dateStr);
+    const months = [
+        'januari', 'februari', 'mars', 'april', 'maj', 'juni',
+        'juli', 'augusti', 'september', 'oktober', 'november', 'december'
+    ];
+    
+    if (dateStr.includes('-')) {
+        return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
+    } else {
+        return `${months[date.getMonth()]} ${date.getFullYear()}`;
+    }
+}
 // Ladda data när sidan laddas
 fetch('propforteckning.json')
     .then(response => response.json())
@@ -68,13 +84,33 @@ function updateUI() {
         const div = document.createElement('div');
         div.className = 'proposition';
         div.innerHTML = `
-            <div class="proposition-title">${item.nummer}. ${item.skrivelse}</div>
-            <div class="proposition-meta">${item.departement} • ${item.datum} • ${item.period}</div>
+            <div class="proposition-title">
+                ${item.nummer}. ${item.skrivelse}
+            </div>
+            <div class="proposition-meta">
+                <span class="meta-item">
+                    <i class="fas fa-building"></i>
+                    ${item.departement}
+                </span>
+                <span class="meta-item">
+                    <i class="fas fa-clock"></i>
+                    ${item.period}
+                </span>
+                <span class="meta-item">
+                    <span class="date-badge">
+                        <i class="fas fa-calendar"></i>
+                        ${formatDate(item.datum)}
+                    </span>
+                </span>
+            </div>
         `;
         container.appendChild(div);
     });
 
-    document.getElementById('count').textContent = `Visar ${filteredData.length} propositioner`;
+    document.getElementById('count').innerHTML = `
+        <i class="fas fa-list"></i>
+        Visar ${filteredData.length} propositioner
+    `;
 }
 
 // Exportera till iCalendar
