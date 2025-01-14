@@ -117,24 +117,49 @@ function updateUI() {
 function generateICS() {
     const events = filteredData.map(item => {
         const date = item.datum.includes('-') ? item.datum : `2025-${item.datum}-01`;
+        const dateObj = new Date(date);
+        // Lägg till en dag för att undvika tidszonsförskjutning
+        dateObj.setDate(dateObj.getDate() + 1);
+        const endDate = new Date(dateObj);
+        endDate.setDate(endDate.getDate() + 1);
+
+        // Formatera datum enligt iCal-standard (YYYYMMDD)
+        const startDateStr = dateObj.toISOString().replace(/[-:]/g, '').split('T')[0];
+        const endDateStr = endDate.toISOString().replace(/[-:]/g, '').split('T')[0];
+
         return `BEGIN:VEVENT
-DTSTART;VALUE=DATE:${date.replace(/-/g, '')}
-SUMMARY:${item.nummer}. ${item.skrivelse}
-DESCRIPTION:Departement: ${item.departement}\\nPeriod: ${item.period}
+UID:prop-${item.nummer}-${date}@riksdagen.se
+DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.[0-9]{3}/, '')}
+DTSTART;VALUE=DATE:${startDateStr}
+DTEND;VALUE=DATE:${endDateStr}
+SUMMARY:Proposition ${item.nummer}: ${item.skrivelse}
+DESCRIPTION:${item.skrivelse}\\n\\nDepartement: ${item.departement}\\nPeriod: ${item.period}\\n
+CATEGORIES:Propositioner,${item.departement}
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CLASS:PUBLIC
 END:VEVENT`;
     }).join('\n');
 
     const calendar = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Propositionskalender//SE
+PRODID:-//Riksdagens propositionskalender//SE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Propositionskalender 2025
+X-WR-TIMEZONE:Europe/Stockholm
+BEGIN:VTIMEZONE
+TZID:Europe/Stockholm
+X-LIC-LOCATION:Europe/Stockholm
+END:VTIMEZONE
 ${events}
 END:VCALENDAR`;
 
-    const blob = new Blob([calendar], { type: 'text/calendar' });
+    const blob = new Blob([calendar], { type: 'text/calendar;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'propositioner.ics';
+    a.download = 'Propositionskalender_2025.ics';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
