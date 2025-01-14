@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propositionskalender</title>
-    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="root"></div>
+    <div class="container">
+        <h1>Propositionskalender</h1>
+        
+        <div class="filters">
+            <div class="filter-item">
+                <label for="search">Sök:</label>
+                <input type="text" id="search" placeholder="Sök proposition...">
+            </div>
+            
+            <div class="filter-item">
+                <label for="department">Departement:</label>
+                <select id="department">
+                    <option value="">Alla departement</option>
+                </select>
+            </div>
+            
+            <div class="filter-item">
+                <label for="period">Period:</label>
+                <select id="period">
+                    <option value="">Alla perioder</option>
+                    <option value="Före sommaren">Före sommaren</option>
+                    <option value="Efter sommaren">Efter sommaren</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="export" class="export-btn">Exportera till kalender</button>
+        
+        <div id="propositions" class="propositions"></div>
+        
+        <div id="count" class="count"></div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
