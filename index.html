@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propositionskalender</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Propositionskalender</h1>
+        <header>
+            <h1><i class="fas fa-calendar-alt"></i> Propositionskalender</h1>
+            <p class="subtitle">Alla propositioner för 2025 med tidplan</p>
+        </header>
         
         <div class="filters">
             <div class="filter-item">
-                <label for="search">Sök:</label>
-                <input type="text" id="search" placeholder="Sök proposition...">
+                <label for="search">
+                    <i class="fas fa-search"></i> Sök
+                </label>
+                <input type="text" id="search" placeholder="Sök på titel eller departement...">
             </div>
             
             <div class="filter-item">
-                <label for="department">Departement:</label>
+                <label for="department">
+                    <i class="fas fa-building"></i> Departement
+                </label>
                 <select id="department">
                     <option value="">Alla departement</option>
                 </select>
             </div>
             
             <div class="filter-item">
-                <label for="period">Period:</label>
+                <label for="period">
+                    <i class="fas fa-clock"></i> Period
+                </label>
                 <select id="period">
                     <option value="">Alla perioder</option>
                     <option value="Före sommaren">Före sommaren</option>
@@ -33,7 +43,9 @@
             </div>
         </div>
 
-        <button id="export" class="export-btn">Exportera till kalender</button>
+        <button id="export" class="export-btn">
+            <i class="fas fa-calendar-plus"></i> Exportera till kalender
+        </button>
         
         <div id="propositions" class="propositions"></div>
         
