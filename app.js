@@ -1,6 +1,20 @@
-Copylet data = [];
+let data = [];
 let filteredData = [];
 
+// Ladda data när sidan laddas
+fetch('propforteckning.json')
+    .then(response => response.json())
+    .then(json => {
+        data = processData(json);
+        filteredData = [...data]; // Kopiera alla propositioner till filteredData
+        updateUI(); // Visa alla propositioner
+        populateDepartments();
+    })
+    .catch(error => {
+        console.error('Error loading data:', error);
+        document.getElementById('propositions').innerHTML = 
+            '<div class="error">Kunde inte ladda propositioner. Försök igen senare.</div>';
+    });
 function formatDate(dateStr) {
     if (!dateStr) return '';
     if (dateStr.length <= 2) return `${dateStr}/2025`;
