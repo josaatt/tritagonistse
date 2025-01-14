@@ -1,0 +1,801 @@
+
+[
+  {
+    "departement": "Regeringskansliet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 1,
+        "skrivelse": "Verksamheten i Europeiska unionen under 2024",
+        "datum": "2025-03-13"
+      },
+      {
+        "nummer": 2,
+        "skrivelse": "Riksdagens skrivelser till regeringen – åtgärder under 2024",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 3,
+        "skrivelse": "Kommittéberättelse – kommittéernas verksamhet under 2024",
+        "datum": "2025-03-18"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": []
+  },
+  {
+    "departement": "Justitiedepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 4,
+        "skrivelse": "Ett nytt rättsmedel i dataskyddslagen och brottsdatalagen",
+        "datum": "2025-01-22"
+      },
+      {
+        "nummer": 5,
+        "skrivelse": "Preskription av avlägsnandebeslut och vissa frågor om återreseförbud",
+        "datum": "2025-01-23"
+      },
+      {
+        "nummer": 6,
+        "skrivelse": "Kamerabevakning i brottsbekämpning och annan offentlig verksamhet - utökade möjligheter och ett enklare förfarande",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 7,
+        "skrivelse": "En ny regel om ränteskillnadsersättning – minskade hinder mot förtidsbetalning av bostadslån",
+        "datum": "2025-02-04"
+      },
+      {
+        "nummer": 8,
+        "skrivelse": "Ändringar i EU:s formskyddsförordning",
+        "datum": "2025-02-25"
+      },
+      {
+        "nummer": 9,
+        "skrivelse": "Stärkt skydd för demokratin och domstolarnas oberoende",
+        "datum": "2025-02-26"
+      },
+      {
+        "nummer": 10,
+        "skrivelse": "Internationell verkställighet i brottmål",
+        "datum": "2025-03-04"
+      },
+      {
+        "nummer": 11,
+        "skrivelse": "Stärkt konstitutionell beredskap",
+        "datum": "2025-03-13"
+      },
+      {
+        "nummer": 12,
+        "skrivelse": "Ersättning till radio- och tv-företag vid privatkopiering",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 13,
+        "skrivelse": "Ett starkare skydd för offentliganställda mot våld, hot och trakasserier",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 14,
+        "skrivelse": "Skärpt syn på sexuella kränkningar, bedrägerier mot äldre och brott med hatmotiv avseende kön",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 15,
+        "skrivelse": "Kontaktförbud – ett utökat skydd för utsatta personer",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 16,
+        "skrivelse": "Förbättrad ordning och säkerhet vid förvar",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 17,
+        "skrivelse": "Ett nytt konkursförfarande",
+        "datum": "2025-03-18"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 18,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om Säkerhetspolisens verksamhet",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 19,
+        "skrivelse": "Nya regler om geografiska beteckningar och internationella varumärken",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 20,
+        "skrivelse": "Säkerhet och tillgänglighet vid val",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 21,
+        "skrivelse": "Förbättrade möjligheter till informationsutbyte mellan myndigheter – en ny sekretessbrytande bestämmelse",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 22,
+        "skrivelse": "En förbättrad modell för presumtionshyra",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 23,
+        "skrivelse": "Polisens användning av skjutvapen",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 24,
+        "skrivelse": "Datalagring och tillgång till elektronisk information",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 25,
+        "skrivelse": "Skärpta krav för offentliga biträden och höjda kompetenskrav för tolkar i migrationsärenden",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 26,
+        "skrivelse": "Utökade möjligheter att verkställa fängelsestraff med elektronisk övervakning",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 27,
+        "skrivelse": "Anpassning av svensk rätt till den reviderade VIS-förordningen",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 28,
+        "skrivelse": "En mer rättssäker och effektiv domstolsprocess",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 29,
+        "skrivelse": "En översyn av regleringen om frihetsberövande påföljder för unga",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 30,
+        "skrivelse": "En modern lagstiftning för Kriminalvårdens personuppgiftsbehandling",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 31,
+        "skrivelse": "Ett mer heltäckande straffansvar vid angrepp på företagshemligheter",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 32,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om Migrationsverkets hantering av medborgarskapsärenden",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 33,
+        "skrivelse": "Kriminalisering av oskuldskontroller, oskuldsintyg och oskuldsingrepp",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Utrikesdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 34,
+        "skrivelse": "Uppsägning av avtalet med Organisationen för det globala nätverket för vattenfrågor (GWPO) om immunitet och privilegier för organisationen och dess personal",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 35,
+        "skrivelse": "Ny lag om internationella sanktioner",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 36,
+        "skrivelse": "Skrivelse: Nordiskt samarbete 2024",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 37,
+        "skrivelse": "Skrivelse: Verksamheten i Nordatlantiska Fördragsorganisationen (Nato) under 2024",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 38,
+        "skrivelse": "Skrivelse: Verksamheten inom Organisationen för säkerhet och samarbete i Europa (OSSE) under andra halvåret 2023 och helåret 2024",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 39,
+        "skrivelse": "Skrivelse: Strategisk exportkontroll – krigsmateriel och produkter med dubbla användningsområden 2024",
+        "datum": "2025-04-08"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": []
+  },
+  {
+    "departement": "Försvarsdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 40,
+        "skrivelse": "Skrivelse: Försvarsindustristrategi för produktion, innovation och utveckling",
+        "datum": "2025-03-18"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 41,
+        "skrivelse": "Ett starkare skydd för nätverks- och informationssystem – en ny cybersäkerhetslag",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 42,
+        "skrivelse": "Förbättrade förutsättningar för Sverige i Nato – några frågor om sekretess",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Socialdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 43,
+        "skrivelse": "Bättre förutsättningar för besöksnäringen i fråga om småskalig produktion av alkoholdrycker",
+        "datum": "2025-01-21"
+      },
+      {
+        "nummer": 44,
+        "skrivelse": "En förebyggande socialtjänstlag – för ökade rättigheter, skyldigheter och möjligheter",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 45,
+        "skrivelse": "Nya anpassningar till EU:s förordningar om medicinteknik",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 46,
+        "skrivelse": "Indragna eller minskade socialförsäkringsförmåner för den som undanhåller sig häktning eller verkställighet av frihetsberövande påföljd",
+        "datum": "2025-02-18"
+      },
+      {
+        "nummer": 47,
+        "skrivelse": "Uppdaterat högkostnadsskydd för läkemedel",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 48,
+        "skrivelse": "Ett fritidskort för barn och unga – en aktiv och meningsfull fritid i gemenskap med andra",
+        "datum": "2025-04-15"
+      },
+      {
+        "nummer": 49,
+        "skrivelse": "Begränsad tillgång till lustgas",
+        "datum": "2025-04-15"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 50,
+        "skrivelse": "Hälso- och sjukvårdens beredskap",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 51,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om statens tillsyn över medicintekniska produkter",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 52,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om sektorsansvaret i funktionshinderspolitiken",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 53,
+        "skrivelse": "Bättre verktyg för kontroll – uppgiftsinhämtning inom socialförsäkringen och ekonomiskt bistånd",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 54,
+        "skrivelse": "Nästa steg för en god och nära vård",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 55,
+        "skrivelse": "Specialiseringstjänstgöring för sjukhusfysiker",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 56,
+        "skrivelse": "Åtgärder för en effektiv och patientsäker anslutning till nationell läkemedelslista",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 57,
+        "skrivelse": "Stärkt kontroll över tandvårdssektorn",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 58,
+        "skrivelse": "Skrivelse: Redovisning av medel från Allmänna arvsfonden under budgetåret 2024",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 59,
+        "skrivelse": "Fler verktyg i socialtjänsternas arbete för att förebygga brott och stärka skyddet för barn",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 60,
+        "skrivelse": "Arbetsprövning med bibehållen sjukpenning",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Finansdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 61,
+        "skrivelse": "Stärkt skydd för vissa förtroendevalda samt en tydligare intern styrning och kontroll i kommuner och regioner",
+        "datum": "2025-01-21"
+      },
+      {
+        "nummer": 62,
+        "skrivelse": "Godkännanden inom punktskatteområdet vid konkurs",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 63,
+        "skrivelse": "Skrivelse: Redovisning av verksamheten i Internationella valutafonden, Världsbanksgruppen samt regionala utvecklings- och investeringsbanker 2023 och 2024",
+        "datum": "2025-01-30"
+      },
+      {
+        "nummer": 64,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om Spelinspektionens tillsynsverksamhet",
+        "datum": "2025-02-24"
+      },
+      {
+        "nummer": 65,
+        "skrivelse": "Regellättnader och ökad transparens på värdepappersmarknaden",
+        "datum": "2025-02-25"
+      },
+      {
+        "nummer": 66,
+        "skrivelse": "Anpassningar av upphandlingslagstiftningen med anledning av EU:s IPI-förordning",
+        "datum": "2025-03-11"
+      },
+      {
+        "nummer": 67,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om distansarbete vid statliga myndigheter",
+        "datum": "2025-03-11"
+      },
+      {
+        "nummer": 68,
+        "skrivelse": "En effektivare förvaltning av buffertkapitalet",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 69,
+        "skrivelse": "Förändrade skattesubventioner för solceller och mikroproduktion av el",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 70,
+        "skrivelse": "Godkännande för F-skatt – nya hinder och återkallelsegrunder",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 71,
+        "skrivelse": "Justering i lagen om särskild inkomstskatt för utomlands bosatta",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 72,
+        "skrivelse": "Slopad stämpelskatt vid inteckning i skepp",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 73,
+        "skrivelse": "Stärkta åtgärder mot utförsel av stöldgods",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 74,
+        "skrivelse": "Stärkt konsumentskydd på kreditmarknaden",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 75,
+        "skrivelse": "Övervaknings- och rapporteringsskyldighet för clearingbolag",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 76,
+        "skrivelse": "Finansiering och riskdelning vid investeringar i ny kärnkraft",
+        "datum": "2025-03-27"
+      },
+      {
+        "nummer": 77,
+        "skrivelse": "Partipolitiska lotterier",
+        "datum": "2025-04-01"
+      },
+      {
+        "nummer": 78,
+        "skrivelse": "Vårändringsbudget för 2025",
+        "datum": "2025-04-15"
+      },
+      {
+        "nummer": 79,
+        "skrivelse": "Skrivelse: Redovisning av skatteutgifter 2025",
+        "datum": "2025-04-15"
+      },
+      {
+        "nummer": 80,
+        "skrivelse": "Skrivelse: Årsredovisning för staten 2024",
+        "datum": "2025-04-15"
+      },
+      {
+        "nummer": 81,
+        "skrivelse": "2025 års ekonomiska vårproposition",
+        "datum": "2025-04-15"
+      },
+      {
+        "nummer": 82,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om tillämpningen av det finanspolitiska ramverket 2024",
+        "datum": "2025-04-17"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 83,
+        "skrivelse": "Anpassningar till EU:s regelverk om hantering av finansiella företag i kris",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 84,
+        "skrivelse": "Skrivelse: Redovisning av AP-fondernas verksamhet t.o.m. 2024",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 85,
+        "skrivelse": "Det skatterättsliga företrädaransvaret",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 86,
+        "skrivelse": "Ett effektivt straffrättsligt skydd för statliga företagsstöd",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 87,
+        "skrivelse": "Framtidens dataskydd vid Skatteverket, Tullverket och Kronofogdemyndigheten",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 88,
+        "skrivelse": "Grundavdrag i lagen om riskskatt för kreditinstitut",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 89,
+        "skrivelse": "Höjd beloppsgräns vid avdrag för resor till och från arbetet",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 90,
+        "skrivelse": "Höjd fastighetsskatt för vindkraftverk",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 91,
+        "skrivelse": "Rapportering och utbyte av information om kryptotillgångar och vissa andra ändringar avseende det administrativa samarbetet på skatteområdet",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 92,
+        "skrivelse": "Kompletterande bestämmelser till skydd för EU:s finansiella intressen",
+        "datum": "2025-08"
+      },
+      {
+        "nummer": 93,
+        "skrivelse": "En säker och statlig E-legitimation och EU:s digitala identitetsplånbok",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 94,
+        "skrivelse": "Ett nytt förbud mot spel på kredit",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 95,
+        "skrivelse": "Koncentration av viss länsstyrelseverksamhet",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 96,
+        "skrivelse": "Regler om avstängning av statligt anställda",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 97,
+        "skrivelse": "Budgetproposition för 2026",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 98,
+        "skrivelse": "Uteslutningsgrunder i valfrihetssystem och rättsligt stöd för behandling av personuppgifter vid uppföljning av avtal",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Utbildningsdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 99,
+        "skrivelse": "Sveriges tillträde till konventionen om upprättande av Square Kilometre Array Observetory",
+        "datum": "2025-02-18"
+      },
+      {
+        "nummer": 100,
+        "skrivelse": "En tioårig grundskola",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 101,
+        "skrivelse": "Ett mer sammanhållet borgenärsansvar för Centrala studiestödsnämnden",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 102,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om tredjelandsstudenter i högskolan – antagning, uppehållstillstånd och organisering av utbildning",
+        "datum": "2025-03-24"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 103,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om avhopp från högskolan",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 104,
+        "skrivelse": "Skärpta krav i kommunal vuxenutbildning i svenska för invandrare (sfi)",
+        "datum": "2025-06"
+      }
+    ]
+  },
+  {
+    "departement": "Klimat- och näringslivsdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 105,
+        "skrivelse": "Skrivelse: Riksrevisionens rapport om Industriklivet",
+        "datum": "2025-01-17"
+      },
+      {
+        "nummer": 106,
+        "skrivelse": "Lättnader i strandskyddet – ett första steg",
+        "datum": "2025-02-06"
+      },
+      {
+        "nummer": 107,
+        "skrivelse": "Nya regler för datacenter och hållbara bränslen samt en ny reduktionsplikt",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 108,
+        "skrivelse": "Nämdöskärgårdens nationalpark",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 109,
+        "skrivelse": "Ett förbättrat genomförande av MKB-direktivet",
+        "datum": "2025-03-18"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 110,
+        "skrivelse": "Verkställbara tvångsmedel mot fartyg inom EU:s utsläppshandelssystem",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 111,
+        "skrivelse": "Kompletterande bestämmelser till EU-förordningen om batterier",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 112,
+        "skrivelse": "Förbättrad utformning av EU:s elmarknad",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 113,
+        "skrivelse": "Genomförande av EU:s reviderade f-gasförordning och förordning om ozonnedbrytande ämnen",
+        "datum": "2025-06"
+      },
+      {
+        "nummer": 114,
+        "skrivelse": "Tillståndsprövning enligt förnybartdirektivet och andra frågor som rör miljöprövning",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 115,
+        "skrivelse": "Vindkraft i kommuner",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 116,
+        "skrivelse": "Att åter möjliggöra utvinning av uran",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 117,
+        "skrivelse": "Uppgiftsskyldighet för vissa stödåtgärder",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 118,
+        "skrivelse": "Ändrade bestämmelser till följd av en nationell förteckning över invasiva främmande arter",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 119,
+        "skrivelse": "Regelverket för framtidens el- och gasnät",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Kulturdepartementet",
+    "riksdagsbehandling_fore_sommaren": [],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 120,
+        "skrivelse": "En lag om public service och riktlinjer för verksamheten 2026–2033",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 121,
+        "skrivelse": "En långsiktigt hållbar kommersiell radioverksamhet",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 122,
+        "skrivelse": "Kompletterande bestämmelser till EU:s mediefrihetsförordning",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 123,
+        "skrivelse": "Kompletterande bestämmelser till EU:s förordning om politisk reklam",
+        "datum": "2025-09"
+      }
+    ]
+  },
+  {
+    "departement": "Arbetsmarknadsdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 124,
+        "skrivelse": "Förbättrat informationsutbyte mellan Arbetsförmedlingen och kommuner",
+        "datum": "2025-03-18"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": []
+  },
+  {
+    "departement": "Landsbygds- och infrastrukturdepartementet",
+    "riksdagsbehandling_fore_sommaren": [
+      {
+        "nummer": 125,
+        "skrivelse": "Förbud mot bottentrålning i marina skyddade områden",
+        "datum": "2025-01-21"
+      },
+      {
+        "nummer": 126,
+        "skrivelse": "Skrivelse: Statens insatser för att minska sjöfartens utsläpp av skadliga ämnen i havet",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 127,
+        "skrivelse": "Skrivelse: Ny strategi för levande och trygga städer",
+        "datum": "2025-01-28"
+      },
+      {
+        "nummer": 128,
+        "skrivelse": "Utvidgad insamling och utlämning av djurhälsodata",
+        "datum": "2025-02-11"
+      },
+      {
+        "nummer": 129,
+        "skrivelse": "Förenklade förutsättningar för ett hållbart vattenbruk",
+        "datum": "2025-03-11"
+      },
+      {
+        "nummer": 130,
+        "skrivelse": "Säkerställande av lika villkor för hållbar lufttransport",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 131,
+        "skrivelse": "Lättnader i byggkraven för studentbostäder",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 132,
+        "skrivelse": "Ett nytt regelverk för bygglov",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 133,
+        "skrivelse": "Lagändringar till följd av ändrade EU-regler om utsläppsfria tunga fordon",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 134,
+        "skrivelse": "Upphävande av lagen om strukturfondpartnerskap",
+        "datum": "2025-03-18"
+      },
+      {
+        "nummer": 135,
+        "skrivelse": "Ändringar i lagen om hamnskydd",
+        "datum": "2025-03-25"
+      }
+    ],
+    "riksdagsbehandling_efter_sommaren": [
+      {
+        "nummer": 136,
+        "skrivelse": "Intelligenta transportsystem – genomförande av ändringsdirektiv",
+        "datum": "2025-04"
+      },
+      {
+        "nummer": 137,
+        "skrivelse": "Förenklad in- och uthyrning av skepp",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 138,
+        "skrivelse": "Ett förbättrat lägenhetsregister",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 139,
+        "skrivelse": "Effektiva sanktioner inom luftfarten",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 140,
+        "skrivelse": "Skärpt kontroll av styrelsen i besiktningsorgan",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 141,
+        "skrivelse": "Ombyggnad enligt plan- och bygglagen",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 142,
+        "skrivelse": "Hund under kontroll",
+        "datum": "2025-05"
+      },
+      {
+        "nummer": 143,
+        "skrivelse": "Anpassningar av svensk rätt till en ny EU-förordning om skyddade beteckningar",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 144,
+        "skrivelse": "Juridiska personers förvärv av lantbruksegendom genom testamente",
+        "datum": "2025-09"
+      },
+      {
+        "nummer": 145,
+        "skrivelse": "Anpassningar till EU:s byggproduktförordning",
+        "datum": "2025-09"
+      }
+    ]
+  }
+]
