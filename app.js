@@ -47,8 +47,12 @@ function processData(jsonData) {
 
 // Fyll i departement-dropdown
 function populateDepartments() {
-    const departments = [...new Set(data.map(item => item.departement))].sort();
     const select = document.getElementById('department');
+    select.innerHTML = '<option value="">Alla departement</option>';
+    
+    const departments = [...new Set(data.map(item => item.departement))]
+        .sort((a, b) => a.localeCompare(b, 'sv'));
+
     departments.forEach(dept => {
         const option = document.createElement('option');
         option.value = dept;
